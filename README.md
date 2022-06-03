@@ -1,4 +1,6 @@
 ## SCSS
 
-- variable
+- variables
 - nesting
+- mixins
+- extend
