@@ -1,1 +1,4 @@
-# SCSS
+## SCSS
+
+- variable
+- nesting
