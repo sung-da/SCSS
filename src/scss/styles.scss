@@ -8,11 +8,14 @@
 body {
   height: 100vh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: $white;
 }
 
 header {
-  background-color: $white;
-  width: 33%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: $fixedWidth;
   height: 100%;
   padding: 10vh 72px 72px;
   display: flex;
@@ -20,32 +23,34 @@ header {
   justify-content: space-between;
   color: $red;
   h1 {
-    color: $red;
     font-size: 85px;
     width: 50%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   h3,
   p {
-    width: 80%;
+    width: 90%;
+    line-height: 1.2;
     text-align: justify;
   }
   p {
     font-weight: 300;
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   nav {
     width: 80%;
     ul {
-      height: 100%;
       display: flex;
       flex-wrap: wrap;
       li {
+        cursor: pointer;
         margin-right: 10px;
         font-size: 15px;
         color: black;
@@ -59,4 +64,10 @@ header {
       }
     }
   }
+}
+
+main {
+  height: 500vh;
+  background-color: $red;
+  margin-left: $fixedWidth;
 }
