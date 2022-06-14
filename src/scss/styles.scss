@@ -1,14 +1,4 @@
-@import "_mixins";
+@import "reset";
 
-h1 {
-  color: red;
-  @include responsive("iphone") {
-    color: yellow;
-  }
-  @include responsive("iphone-l") {
-    font-size: 60px;
-  }
-  @include responsive("tablet") {
-    color: green;
-  }
-}
+@import "styles_index";
+@import "styles_01";
