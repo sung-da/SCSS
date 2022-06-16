@@ -23,6 +23,7 @@ $fixedWidth: 33%;
     flex-direction: column;
     justify-content: space-between;
     color: $red;
+    overflow-y: scroll;
     h1 {
       font-size: 85px;
       width: 50%;
@@ -79,10 +80,8 @@ $fixedWidth: 33%;
     margin-left: $fixedWidth;
 
     header {
-      position: fixed;
+      position: sticky;
       top: 0;
-      right: 0;
-      width: 67%;
       height: 140px;
       background-color: $red;
       border-bottom: 1px solid #cf4036;
@@ -94,8 +93,19 @@ $fixedWidth: 33%;
       p {
         font-size: 20px;
         color: white;
-        a {
+        button {
           color: rgba(0, 0, 0, 0.5);
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-size: 20px;
+          text-decoration: underline;
+          border: none;
+          background-color: transparent;
+          letter-spacing: 1px;
+          &:hover {
+            color: white;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -125,10 +135,12 @@ $fixedWidth: 33%;
           align-items: flex-end;
           margin-bottom: 25px;
           h4 {
-            font-size: 32px;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold",
+              sans-serif;
+            font-size: 55px;
           }
           h5 {
-            letter-spacing: 2px;
+            letter-spacing: 1px;
           }
         }
       }
