@@ -10,5 +10,5 @@
 
 ## Clone Page
 
-- [x] [Best Horror Scenes](https://besthorrorscenes.com/)
-- [ ] [Paintbox](https://paint-box.com/)
+- [x] [Clone Best Horror Scenes](https://sung-da.github.io/SCSS/clone/clone_01.html)
+- [ ] [Paintbox]()
